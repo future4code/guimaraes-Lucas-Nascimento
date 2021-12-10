@@ -192,7 +192,21 @@ function retornaPessoasAutorizadas(pessoas) {
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+    function isntTallEnough(pessoas)
+    {
+        if (pessoas.altura < 1.5 || pessoas.idade <= 14 || pessoas.idade > 60)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    let naoAutorizadas = pessoas.filter(isntTallEnough);
+
+    return naoAutorizadas;
 }
 
 // EXERCÍCIO 14

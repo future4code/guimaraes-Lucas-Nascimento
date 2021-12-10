@@ -257,5 +257,27 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
+    let newObj = [];
+
+    for (i = 0; i < consultas.length; i++)
+    {
+       newObj.push(consultas[i].dataDaConsulta)
+    }
+
+    newObj.sort((a, b) => a.dataDaConsulta - b.dataDaConsulta);
+
+
+    console.log(newObj);
+
+    let organizadoPorData = [];
+
+    for (var i = 0; i < newObj.length; i++)
+    {
+        consultas[i].dataDaConsulta = organizadoPorData[i];
+    }
+
+    console.log(consultas);
+
+    return consultas;
    
 }

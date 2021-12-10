@@ -43,7 +43,17 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+    let arrayQuadrados = [];
+
+    for (i = 0; i < array.length; i++)
+    {
+        if (array[i] % 2 === 0)
+        {
+            arrayQuadrados.push(Math.pow(array[i], 2));
+        }
+    }
+
+    return arrayQuadrados;
 }
 
 // EXERCÍCIO 06

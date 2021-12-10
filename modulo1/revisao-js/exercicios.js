@@ -149,7 +149,11 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+    let newArr = array.sort(function compararNumeros(a, b) {
+        return a - b;
+      });
+
+    return [newArr[newArr.length - 2], newArr[1]];
 }
 
 // EXERCÍCIO 11

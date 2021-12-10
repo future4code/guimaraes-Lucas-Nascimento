@@ -231,7 +231,28 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+    let newObj = [];
+
+    for (var i = 0; i < consultas.length; i++)
+    {
+        newObj.push(consultas[i].nome);
+    }
+
+    newObj.sort();
+
+    let newArr = [];
+
+    for (var i = 0; i < newObj.length; i++)
+    {
+        for (var j = 0; j < consultas.length; j++)
+        {
+            if (newObj[i] === consultas[j].nome)
+            {
+                newArr.push(consultas[j]);
+            }
+        }
+    }
+    return newArr;
 }
 
 // EXERCÍCIO 15B

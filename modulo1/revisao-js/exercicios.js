@@ -127,7 +127,24 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+    if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC)
+    {
+        console.log('Este triângulo é ESCALENO')
+        return "Escaleno";
+    }
+    else if (ladoA === ladoB && ladoA !== ladoC && ladoB !== ladoC ||
+             ladoA === ladoC && ladoA !== ladoB && ladoB !== ladoC ||
+             ladoB === ladoC && ladoA !== ladoC && ladoA !== ladoB
+            )
+    {
+        console.log('Este triângulo é ISÓSCELES')
+        return "Isósceles";
+    }
+    else
+    {
+        console.log('Este triângulo é EQUILÁTERO')
+        return "Equilátero";
+    }
 }
 
 // EXERCÍCIO 10

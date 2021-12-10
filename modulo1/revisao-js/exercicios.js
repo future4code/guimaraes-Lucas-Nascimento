@@ -173,7 +173,21 @@ function retornaPessoaAnonimizada(pessoa) {
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+    function isTallEnough(pessoas)
+    {
+        if (pessoas.altura >= 1.5 && pessoas.idade > 14 && pessoas.idade < 60)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    let autorizadas = pessoas.filter(isTallEnough);
+
+    return autorizadas;
 }
 
 // EXERCÍCIO 13B

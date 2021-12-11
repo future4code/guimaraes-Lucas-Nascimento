@@ -1,0 +1,16 @@
+Como solucionar problemas de programação.
+
+
+1) Ter atenção para identificar o problema. Ter atenção ao enunciado e muito importante para entender e resolver o problema.
+
+2) Ao ler o enunciado já podemos retirar informações relevantes, como nomes de variáveis e vetores e construir um esbouço como forma de aquecimento para começar a “codar”.
+
+3) É importante já pensar logo de começo nas entradas e saídas do código, de forma que formulamos o código em nossa cabeça.
+
+4) Fazer um esquema visual ajuda bastante para criar cenários para avaliar como o programa se comportar. Um exemplo que ajuda muito é a criação de diagramas.
+
+5) De início ao redigir o código o mais importante e fazer funcionar de uma maneira. Em seguida podemos refatorar e deixar o código mais limpo e funcional.
+
+6) Só podemos se o nosso código esta rodando tudo como deveria testando. Rodando diversas vezes com variadas entradas e saídas.
+
+7) Refatorando diminuímos a redundância no código, também na endentação para outras pessoas conseguirem entender de formar clara o código.

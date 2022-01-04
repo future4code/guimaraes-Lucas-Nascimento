@@ -108,6 +108,11 @@ div:last-child {
     text-align: center;
 }
 
+img {
+    width: 50px; 
+    height: auto
+}
+
 table {
     width: 60%;
     text-align: center;

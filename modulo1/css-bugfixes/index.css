@@ -134,6 +134,10 @@ td button {
     height: 100px;
 }
 
+button:hover {
+    background-color: #fe7e02;
+}
+
 
 #back-button {
     background-color: white;

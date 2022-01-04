@@ -33,9 +33,7 @@ div>p:first-child {
     display: block;
 }
 
-div img {
-    background: black;
-}
+
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -110,6 +108,11 @@ div:last-child {
 
 img {
     width: 50px; 
+    height: auto
+}
+
+.img-search {
+    width: 15px; 
     height: auto
 }
 

@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 0px 5px 0px 5px;
+}
+
+h4{
+ padding-top:10px;
+}
+
+.description {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    padding: 8px;
+}
+
+.cake-icon {
+    width: 18px;
+    height: auto;
+}
+
+.sidebar-icons {
+    width: 18px;
+    height: auto;
+}
+
+.img-products {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+#container-header {
+    background-color: mediumvioletred;
+    display: grid;
+    grid-template-columns: 2% 95% 3% ;
+    padding: 10px;
+}
+
+#main-container {
+    display: flex;
+}
+
+#aside-container {
+    background-color: #f2d0e0;
+    display: grid;
+    grid-template-columns: 30px 200px 20px;
+    padding:  10px 10px 100vh 10px;
+    row-gap: 25px;
+}
+
+#products-conainers {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    padding: 0px 0px 0px 20px;
+
+}
+
+#products-cards {
+    display: grid;
+    text-align: center;
+    padding: 60px;
+
+    box-shadow: 5px 3px 3px darkgray;
+}
+
+footer {
+    text-align: center;
+    background-color: mediumvioletred ;
+    padding: 20px;
+
+    
+}
+
+/* #sidebar {
+    background-color: #f2d0e0;
+    display: 
+    flex-direction: column;
+    width: 150px; 
+    height: 100%
+    /*grid-template-columns: 30px 200px 20px;
+    grid-template-rows: 50px 50px 50px;
+    
+
+} */
+

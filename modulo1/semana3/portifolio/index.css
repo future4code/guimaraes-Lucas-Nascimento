@@ -199,9 +199,9 @@ button:active {
     height: auto;
     width: auto;
     background-color: #F7FDFA;
-    padding-bottom: 50px;
-   box-shadow: 2px 2px 12px black;
-    
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 12px black;
+    margin-top: 100px;
     
 }
 
@@ -273,4 +273,176 @@ button:active {
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     padding-left: 15px;
+}
+
+
+/* Seção Portfólio */
+
+.portfolio {
+    margin: 100px;
+    background-color: #F7FDFA;
+    
+}
+
+.titulo-projeto {
+    display: block;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #2a65d3;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 50px;
+   
+}
+
+.descricao-projeto {
+    background-color: #2a65d3;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 60px;
+    font-family: 'Nunito', sans-serif;
+    color: #F7FDFA;
+    
+}
+
+.descricao-projeto span {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F7FDFA;
+    color: #2a65d3;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.icons-linguagens {
+    width: 30px;
+    height: 30px;
+    background-color: #F7FDFA;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px black;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.boxs-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-projetos {
+    margin-top: 50px;
+    width: 700px;
+    height: auto;
+    box-shadow: 2px 2px 12px black;
+}
+
+.obs {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+
+/* Contato */ 
+
+
+.conteudo-contato {
+    font-family: 'Nunito', sans-serif;
+    color: #F7FDFA;
+    background-color: #2a65d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px black;
+}
+
+#titulo-contato {
+    font-size: 40px;
+}
+
+.texto-contato {
+    text-align: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+.conteudo-contato input, textarea, button {
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+    border: 0;
+
+}
+
+#button-enviar {
+    background-color: #F7FDFA;
+    font-family: 'Nunito', sans-serif;
+    color: #2a65d3;
+    font-weight: bold;
+    margin: 20px 45% 0px 45%;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.label-mod {
+    margin-left: 38px;
+}
+
+.label-mod1 {
+    margin-right: 5px;
+}
+.row-mensagem {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+/* Footer */ 
+
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    background-color: #2a65d3;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.icons-footer {
+    width: 30px;
+    height: auto;
+}
+
+#redes {
+    margin: 20px 80px 20px 20px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #F7FDFA;
+}
+
+#marca {
+    margin: 50px 50px 50px 100px;
+    font-family: 'Nunito', sans-serif;
+    color: #F7FDFA;
+    font-weight: bold;
+}
+
+#ajuste-insta {
+    width: 50px;
+    height: auto;
+}
+
+#icon-linkedin {
+    margin-right: 10px ;
 }

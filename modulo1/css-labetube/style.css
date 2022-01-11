@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main {
+    height: 60vw;
+
+    
+}
+
+#navegacao-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(207, 84, 12);
+    padding: 20px;
+
+}
+
+#lupa {
+    width: 15px;
+    padding-left: 5px;
+}
+
+#barra-procurar {
+    border: 0;
+}
+
+
+#row1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.video {
+    width: 100%;
+}
+
+.card {
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 12px darkgray;
+}
+
+#footer {
+    background-color: rgb(207, 84, 12);
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Pagina de detalhe do video */ 
+
+
+#apresentacao-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#apresentacao-video video {
+    padding-top: 20px;
+    width: 50%;
+}

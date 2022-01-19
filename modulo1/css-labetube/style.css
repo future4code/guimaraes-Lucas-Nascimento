@@ -5,8 +5,7 @@
 }
 
 main {
-    height: 60vw;
-
+    height: 100%;
     
 }
 
@@ -72,4 +71,35 @@ main {
 #apresentacao-video video {
     padding-top: 20px;
     width: 50%;
+}
+
+
+
+/* Reponsividade Mobile */
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    /* Iphone 6/7/8 */
+
+    header {
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        
+    }
+
+
+    #row1 {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    #row2 {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80vw;
+        margin-bottom: 30px;
+    }
 }

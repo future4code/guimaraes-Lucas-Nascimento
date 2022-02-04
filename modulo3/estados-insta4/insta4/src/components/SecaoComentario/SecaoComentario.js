@@ -10,6 +10,17 @@ const CommentContainer = styled.div`
 const InputComentario = styled.input`
     width: 100%;
     margin-right: 5px;
+	border: 0;
+	border-radius: 20px;
+	outline: 0;
+	padding: 5px;
+`
+const BtnComentario = styled.button `
+	border: 0;
+	border-radius: 20px;
+	background-color: lightgreen;
+	padding: 5px;
+	font-weight: bold;
 `
 
 
@@ -31,7 +42,7 @@ export class SecaoComentario extends Component {
 				onChange={this.onChangeComentario}
 
 			/>
-			<button onClick={this.props.aoEnviar}>Enviar</button>
+			<BtnComentario onClick={this.props.aoEnviar}>Enviar</BtnComentario>
 		</CommentContainer>
 	}
 }

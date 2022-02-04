@@ -9,16 +9,19 @@ import iconeComentario from '../../img/comment_icon.svg'
 import {SecaoComentario} from '../SecaoComentario/SecaoComentario'
 
 const PostContainer = styled.div`
-  border: 1px solid gray;
+  border: 0;
+  border-radius: 20px;
   width: 300px;
   margin-bottom: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 12px darkgray;
 `
 
 const PostHeader = styled.div`
   height: 40px;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding: 10px;
 `
 
 const PostFooter = styled.div`
@@ -34,6 +37,7 @@ const UserPhoto = styled.img`
   width: 30px;
   margin-right: 10px;
   border-radius: 50%;
+  border: 2px solid pink;
 `
 
 const PostPhoto = styled.img`
@@ -49,11 +53,18 @@ class Post extends React.Component {
   }
 
   onClickCurtida = () => {
-    console.log('Curtiu!')
-    this.setState({
-      curtido: !this.state.curtido,
-      numeroCurtidas: this.state.numeroCurtidas + 1 
-    })
+    if (this.state.curtido) {
+      this.setState({
+        curtido: false,
+        numeroCurtidas: this.state.numeroCurtidas - 1 
+      })
+    } else {
+      this.setState ({
+        curtido: true,
+        numeroCurtidas: this.state.numeroComentarios + 1
+      })
+    }
+    
 
   }
 

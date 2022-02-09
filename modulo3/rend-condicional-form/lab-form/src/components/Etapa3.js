@@ -17,7 +17,7 @@ class Etapa3 extends React.Component{
                 <h3>5. Por que você não terminou um curso de graduação?</h3>
                 <Input placeholder="Digite sua resposta..."/>
 
-                <h3>6. Você fex algum curso complementar?</h3>
+                <h3>6. Você fez algum curso complementar?</h3>
                 <select>
                     <option>Nenhum</option>
                     <option>Curso Técnico</option>
